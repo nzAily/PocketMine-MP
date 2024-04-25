@@ -126,7 +126,7 @@ final class CraftingDataCache{
 							$index
 						);
 					}
-				}else {
+				}else{
 					//TODO: probably special recipe types
 				}
 			}catch(\InvalidArgumentException|ItemTypeSerializeException) {
