@@ -122,6 +122,7 @@ final class CraftingDataCache{
 							$nullUUID,
 							CraftingRecipeBlockName::CRAFTING_TABLE,
 							50,
+							true,
 							$index
 						);
 					}

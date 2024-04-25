@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10fd3361f7f71435eef70250863b5000",
+    "content-hash": "dd3e364a57360b22ba4ce28ca2f730bf",
     "packages": [
         {
             "name": "adhocore/json-comment",
@@ -126,12 +126,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NetherGamesMC/BedrockData.git",
-                "reference": "06cc06bc9cc81767c2fa14b836b77c207e074db1"
+                "reference": "ea90e31ed8264fd098b4c9d3eb9ec8f9d590eb94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NetherGamesMC/BedrockData/zipball/06cc06bc9cc81767c2fa14b836b77c207e074db1",
-                "reference": "06cc06bc9cc81767c2fa14b836b77c207e074db1",
+                "url": "https://api.github.com/repos/NetherGamesMC/BedrockData/zipball/ea90e31ed8264fd098b4c9d3eb9ec8f9d590eb94",
+                "reference": "ea90e31ed8264fd098b4c9d3eb9ec8f9d590eb94",
                 "shasum": ""
             },
             "default-branch": true,
@@ -143,7 +143,7 @@
             "support": {
                 "source": "https://github.com/NetherGamesMC/BedrockData/tree/master"
             },
-            "time": "2024-03-13T14:52:38+00:00"
+            "time": "2024-04-25T10:37:24+00:00"
         },
         {
             "name": "nethergamesmc/bedrock-protocol",
@@ -151,12 +151,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NetherGamesMC/BedrockProtocol.git",
-                "reference": "f3fccf670f43cf89e5ed48031d569f9b5f67659b"
+                "reference": "44784e4f381781272e2b7a24d1ec0be1097a3d5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NetherGamesMC/BedrockProtocol/zipball/f3fccf670f43cf89e5ed48031d569f9b5f67659b",
-                "reference": "f3fccf670f43cf89e5ed48031d569f9b5f67659b",
+                "url": "https://api.github.com/repos/NetherGamesMC/BedrockProtocol/zipball/44784e4f381781272e2b7a24d1ec0be1097a3d5f",
+                "reference": "44784e4f381781272e2b7a24d1ec0be1097a3d5f",
                 "shasum": ""
             },
             "require": {
@@ -198,20 +198,20 @@
             "support": {
                 "source": "https://github.com/NetherGamesMC/BedrockProtocol/tree/master"
             },
-            "time": "2024-03-14T08:07:16+00:00"
+            "time": "2024-04-25T10:34:42+00:00"
         },
         {
             "name": "pocketmine/bedrock-block-upgrade-schema",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/BedrockBlockUpgradeSchema.git",
-                "reference": "ebd768e5b202cae59b0a7057982e3a2f40ba1954"
+                "reference": "d6b10cb0a5e69fb1dfe3b7f493bf4f519723a9cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/BedrockBlockUpgradeSchema/zipball/ebd768e5b202cae59b0a7057982e3a2f40ba1954",
-                "reference": "ebd768e5b202cae59b0a7057982e3a2f40ba1954",
+                "url": "https://api.github.com/repos/pmmp/BedrockBlockUpgradeSchema/zipball/d6b10cb0a5e69fb1dfe3b7f493bf4f519723a9cb",
+                "reference": "d6b10cb0a5e69fb1dfe3b7f493bf4f519723a9cb",
                 "shasum": ""
             },
             "type": "library",
@@ -222,22 +222,22 @@
             "description": "Schemas describing how to upgrade saved block data in older Minecraft: Bedrock Edition world saves",
             "support": {
                 "issues": "https://github.com/pmmp/BedrockBlockUpgradeSchema/issues",
-                "source": "https://github.com/pmmp/BedrockBlockUpgradeSchema/tree/4.0.0"
+                "source": "https://github.com/pmmp/BedrockBlockUpgradeSchema/tree/4.1.0"
             },
-            "time": "2024-04-05T16:02:20+00:00"
+            "time": "2024-04-05T17:28:14+00:00"
         },
         {
             "name": "pocketmine/bedrock-item-upgrade-schema",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/BedrockItemUpgradeSchema.git",
-                "reference": "4c4dc3bbceb944c5de429b6e752ab7a15652078c"
+                "reference": "24a89457c17c271b5378b195931e720873865a79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/BedrockItemUpgradeSchema/zipball/4c4dc3bbceb944c5de429b6e752ab7a15652078c",
-                "reference": "4c4dc3bbceb944c5de429b6e752ab7a15652078c",
+                "url": "https://api.github.com/repos/pmmp/BedrockItemUpgradeSchema/zipball/24a89457c17c271b5378b195931e720873865a79",
+                "reference": "24a89457c17c271b5378b195931e720873865a79",
                 "shasum": ""
             },
             "type": "library",
@@ -248,9 +248,9 @@
             "description": "JSON schemas for upgrading items found in older Minecraft: Bedrock world saves",
             "support": {
                 "issues": "https://github.com/pmmp/BedrockItemUpgradeSchema/issues",
-                "source": "https://github.com/pmmp/BedrockItemUpgradeSchema/tree/1.8.0"
+                "source": "https://github.com/pmmp/BedrockItemUpgradeSchema/tree/1.9.0"
             },
-            "time": "2024-02-28T19:25:53+00:00"
+            "time": "2024-04-05T18:46:07+00:00"
         },
         {
             "name": "pocketmine/binaryutils",
