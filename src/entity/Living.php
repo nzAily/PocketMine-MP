@@ -68,6 +68,7 @@ use function atan2;
 use function ceil;
 use function count;
 use function floor;
+use function ksort;
 use function lcg_value;
 use function max;
 use function min;
@@ -76,6 +77,7 @@ use function mt_rand;
 use function round;
 use function sqrt;
 use const M_PI;
+use const SORT_NUMERIC;
 
 abstract class Living extends Entity{
 	protected const DEFAULT_BREATH_TICKS = 300;
