@@ -29,6 +29,7 @@ use pocketmine\entity\effect\EffectInstance;
 use pocketmine\entity\Entity;
 use pocketmine\entity\Human;
 use pocketmine\entity\Living;
+use pocketmine\item\VanillaItems;
 use pocketmine\network\mcpe\convert\TypeConverter;
 use pocketmine\network\mcpe\protocol\ClientboundPacket;
 use pocketmine\network\mcpe\protocol\EmotePacket;
@@ -41,6 +42,7 @@ use pocketmine\network\mcpe\protocol\TakeItemActorPacket;
 use pocketmine\network\mcpe\protocol\types\entity\Attribute as NetworkAttribute;
 use pocketmine\network\mcpe\protocol\types\entity\PropertySyncData;
 use pocketmine\network\mcpe\protocol\types\inventory\ContainerIds;
+use pocketmine\network\mcpe\protocol\types\inventory\ItemStack;
 use pocketmine\network\mcpe\protocol\types\inventory\ItemStackWrapper;
 use pocketmine\network\mcpe\protocol\UpdateAttributesPacket;
 use function array_map;
@@ -131,7 +133,8 @@ final class StandardEntityEventBroadcaster implements EntityEventBroadcaster{
 			ItemStackWrapper::legacy($converter->coreItemStackToNet($inv->getHelmet())),
 			ItemStackWrapper::legacy($converter->coreItemStackToNet($inv->getChestplate())),
 			ItemStackWrapper::legacy($converter->coreItemStackToNet($inv->getLeggings())),
-			ItemStackWrapper::legacy($converter->coreItemStackToNet($inv->getBoots()))
+			ItemStackWrapper::legacy($converter->coreItemStackToNet($inv->getBoots())),
+			new ItemStackWrapper(0, ItemStack::null())
 		));
 	}
 
