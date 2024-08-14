@@ -156,12 +156,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NetherGamesMC/BedrockProtocol.git",
-                "reference": "7d136bba122f0cf6a25db689f406459cd8030ea8"
+                "reference": "4b9ee8a71605cdaef6655a8f68096778f8b1f9ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NetherGamesMC/BedrockProtocol/zipball/7d136bba122f0cf6a25db689f406459cd8030ea8",
-                "reference": "7d136bba122f0cf6a25db689f406459cd8030ea8",
+                "url": "https://api.github.com/repos/NetherGamesMC/BedrockProtocol/zipball/4b9ee8a71605cdaef6655a8f68096778f8b1f9ee",
+                "reference": "4b9ee8a71605cdaef6655a8f68096778f8b1f9ee",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
             "support": {
                 "source": "https://github.com/NetherGamesMC/BedrockProtocol/tree/master"
             },
-            "time": "2024-08-14T01:00:02+00:00"
+            "time": "2024-08-14T01:11:09+00:00"
         },
         {
             "name": "pocketmine/bedrock-block-upgrade-schema",
