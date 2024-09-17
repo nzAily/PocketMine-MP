@@ -1465,6 +1465,10 @@ final class BlockStateToObjectDeserializer implements BlockStateDeserializer{
 			return Blocks::PUMPKIN();
 		});
 		$this->map(Ids::PUMPKIN_STEM, fn(Reader $in) => Helper::decodeStem(Blocks::PUMPKIN_STEM(), $in));
+		$this->map(Ids::PURPUR_BLOCK, function(Reader $in) : Block{
+			$in->ignored(StateNames::PILLAR_AXIS); //???
+			return Blocks::PURPUR();
+		});
 		$this->map(Ids::PURPUR_PILLAR, fn(Reader $in) => Blocks::PURPUR_PILLAR()->setAxis($in->readPillarAxis()));
 		$this->mapSlab(Ids::PURPUR_SLAB, Ids::PURPUR_DOUBLE_SLAB, fn() => Blocks::PURPUR_SLAB());
 		$this->mapStairs(Ids::PURPUR_STAIRS, fn() => Blocks::PURPUR_STAIRS());
