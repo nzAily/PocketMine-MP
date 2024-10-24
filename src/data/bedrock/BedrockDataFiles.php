@@ -45,6 +45,7 @@ final class BedrockDataFiles{
 	public const BLOCK_ID_TO_ITEM_ID_MAP_1_21_20_JSON = BEDROCK_DATA_PATH . '/block_id_to_item_id_map-1.21.20.json';
 	public const BLOCK_ID_TO_ITEM_ID_MAP_1_21_30_JSON = BEDROCK_DATA_PATH . '/block_id_to_item_id_map-1.21.30.json';
 	public const BLOCK_ID_TO_ITEM_ID_MAP_JSON = BEDROCK_DATA_PATH . '/block_id_to_item_id_map.json';
+	public const BLOCK_PROPERTIES_TABLE_JSON = BEDROCK_DATA_PATH . '/block_properties_table.json';
 	public const BLOCK_STATE_META_MAP_1_20_0_JSON = BEDROCK_DATA_PATH . '/block_state_meta_map-1.20.0.json';
 	public const BLOCK_STATE_META_MAP_1_20_10_JSON = BEDROCK_DATA_PATH . '/block_state_meta_map-1.20.10.json';
 	public const BLOCK_STATE_META_MAP_1_20_30_JSON = BEDROCK_DATA_PATH . '/block_state_meta_map-1.20.30.json';
