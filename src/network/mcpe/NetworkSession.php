@@ -423,7 +423,7 @@ class NetworkSession{
 			}
 
 			if($this->enableCompression){
-				if($this->protocolId >= ProtocolInfo::PROTOCOL_1_20_60){
+				if($this->protocolId >= ProtocolInfo::PROTOCOL_1_20_80){
 					$compressionType = ord($payload[0]);
 					$compressed = substr($payload, 1);
 					if($compressionType === CompressionAlgorithm::NONE){
