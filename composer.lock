@@ -130,12 +130,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/NetherGamesMC/BedrockData.git",
+                "url": "https://github.com/nzAily/BedrockData.git",
                 "reference": "2e8861f2cc2ce81f11baa5dee28dd23e01625893"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NetherGamesMC/BedrockData/zipball/2e8861f2cc2ce81f11baa5dee28dd23e01625893",
+                "url": "https://api.github.com/repos/nzAily/BedrockData/zipball/2e8861f2cc2ce81f11baa5dee28dd23e01625893",
                 "reference": "2e8861f2cc2ce81f11baa5dee28dd23e01625893",
                 "shasum": ""
             },
@@ -146,7 +146,7 @@
             ],
             "description": "Blobs of data generated from Minecraft: Bedrock Edition, used by PocketMine-MP",
             "support": {
-                "source": "https://github.com/NetherGamesMC/BedrockData/tree/master"
+                "source": "https://github.com/nzAily/BedrockData/tree/master"
             },
             "time": "2024-10-23T22:00:31+00:00"
         },
@@ -155,12 +155,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/NetherGamesMC/BedrockProtocol.git",
+                "url": "https://github.com/nzAily/BedrockProtocol.git",
                 "reference": "b1ad8fa6321bafdd7057624e9ff3570309509995"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NetherGamesMC/BedrockProtocol/zipball/b1ad8fa6321bafdd7057624e9ff3570309509995",
+                "url": "https://api.github.com/repos/nzAily/BedrockProtocol/zipball/b1ad8fa6321bafdd7057624e9ff3570309509995",
                 "reference": "b1ad8fa6321bafdd7057624e9ff3570309509995",
                 "shasum": ""
             },
@@ -201,7 +201,7 @@
             ],
             "description": "An implementation of the Minecraft: Bedrock Edition protocol in PHP",
             "support": {
-                "source": "https://github.com/NetherGamesMC/BedrockProtocol/tree/master"
+                "source": "https://github.com/nzAily/BedrockProtocol/tree/master"
             },
             "time": "2024-10-24T13:25:25+00:00"
         },
