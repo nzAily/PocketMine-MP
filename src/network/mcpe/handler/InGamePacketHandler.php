@@ -503,12 +503,7 @@ class InGamePacketHandler extends PacketHandler{
 
 				$blockPos = $data->getBlockPosition();
 				$vBlockPos = new Vector3($blockPos->getX(), $blockPos->getY(), $blockPos->getZ());
-				$this->player->interactBlock($vBlockPos, $data->getFace(), $clickPos);
-				if($this->player->getNetworkSession()->getProtocolId() < ProtocolInfo::PROTOCOL_1_21_20 || $data->getClientInteractPrediction() === PredictedResult::SUCCESS){
-					//always sync this in case plugins caused a different result than the client expected
-					//we *could* try to enhance detection of plugin-altered behaviour, but this would require propagating
-					//more information up the stack. For now I think this is good enough.
-					//if only the client would tell us what blocks it thinks changed...
+				if (!$this->player->interactBlock($vBlockPos, $data->getFace(), $clickPos)) {
 					$this->syncBlocksNearby($vBlockPos, $data->getFace());
 				}
 				return true;
